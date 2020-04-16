@@ -1,3 +1,5 @@
+### Simple program to take Weather JSON data and return as string
+
 import urllib.request
 import json
 from setup import obsUrl
@@ -15,6 +17,5 @@ for w in data:
     tempString = str(data['data']['temperature'][n])
     textString = data['data']['text'][n]
     weatherString = dayString + " " + tempLabel + " " + tempString + " " + textString + "\n"
-    print(weatherString.upper())
     n = n + 1
 

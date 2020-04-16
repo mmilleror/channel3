@@ -1,3 +1,5 @@
+### Simple RSS feedparser to gather news headlines and return as dict
+
 from setup import *
 import feedparser
 

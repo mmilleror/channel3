@@ -31,7 +31,6 @@ def weatherAlerts():
             if "There are no active watches, warnings or advisories" in alertText:
                 alertReturn.append("NONE")
             else:
-#                alertText = "Urgency: " + alertItem["cap_urgency"] + " - Severity: " + alertItem["cap_severity"] + " - " + alertItem["title"] + " - " + alertItem["summary$
                  alertText = alertItem["title"] + " - " + alertItem["summary"]
                  alertReturn.append(alertText)
         return(alertReturn)
