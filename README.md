@@ -49,4 +49,6 @@ SET loadMuisc = 1 to turn on background music. ADD LIST OF MP3 FILES TO playlist
 
 ----------
 
+Start by running 
 
+$ bash start.sh
