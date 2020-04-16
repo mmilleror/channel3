@@ -1,6 +1,8 @@
+# Original code 
 # Retro Winnipeg Weather Channel
 # By probnot
 # code is scrounged together, please be kind
+# Revisions by DamagedDolphin
 
 import os
 import time
